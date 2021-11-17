@@ -13,3 +13,5 @@ const port = process.env.PORT || process.env.SERVER_PORT;
 
 
 app.listen(port, () => console.log(`Ya server do be running on port: ${port}`));
+
+// when connecting this GitHub repo to Heroku, can connect in the Deploy section of the app. We can enable automatic deploys here (when changes are detected in GitHub repo), but not doing that now. At the bottom, need to deploy the changes manually.
